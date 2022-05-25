@@ -7,9 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsernameComponent implements OnInit {
   username: string = '';
-  onReset() {
-    this.username = '';
-  }
   constructor() {}
 
   ngOnInit() {}
